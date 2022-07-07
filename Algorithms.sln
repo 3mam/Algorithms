@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination", "Combination\Combination.csproj", "{33F4E5FD-B074-4A63-9CD5-50B2BB3085D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrobogrammaticPrime", "StrobogrammaticPrime\StrobogrammaticPrime.csproj", "{FD8F7291-56AD-442E-BCC6-848B00058527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{33F4E5FD-B074-4A63-9CD5-50B2BB3085D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F4E5FD-B074-4A63-9CD5-50B2BB3085D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F4E5FD-B074-4A63-9CD5-50B2BB3085D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8F7291-56AD-442E-BCC6-848B00058527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8F7291-56AD-442E-BCC6-848B00058527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8F7291-56AD-442E-BCC6-848B00058527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8F7291-56AD-442E-BCC6-848B00058527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

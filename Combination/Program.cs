@@ -15,7 +15,7 @@ string[] Combination(string[] element)
   return combined;
 }
 
-Console.WriteLine("Wpisz ciąg znaków:");
+Console.WriteLine("Enter a string of characters:");
 var input = Console.ReadLine()!;
 var splitSentence = new Regex("").Split(input)[1..^1];
 var combination = Combination(splitSentence)
