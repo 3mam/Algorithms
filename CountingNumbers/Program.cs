@@ -3,7 +3,7 @@ Console.WriteLine("Enter a integer number:");
 var input = Console.ReadLine()!;
 try
 {
-  var len = Math.Round(Math.Log10(int.Parse(input)))+1;
+  var len = Math.Round(Math.Log10(Math.Abs(int.Parse(input))))+1;
   Console.ForegroundColor = ConsoleColor.Green;
   Console.WriteLine($"{input} contains {len} numbers.");
 }
