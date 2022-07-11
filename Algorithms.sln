@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination", "Combination\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrobogrammaticPrime", "StrobogrammaticPrime\StrobogrammaticPrime.csproj", "{FD8F7291-56AD-442E-BCC6-848B00058527}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingNumbers", "CountingNumbers\CountingNumbers.csproj", "{AB5D2A66-8F0D-47EC-84AF-701E928BDD20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FD8F7291-56AD-442E-BCC6-848B00058527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD8F7291-56AD-442E-BCC6-848B00058527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD8F7291-56AD-442E-BCC6-848B00058527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5D2A66-8F0D-47EC-84AF-701E928BDD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5D2A66-8F0D-47EC-84AF-701E928BDD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5D2A66-8F0D-47EC-84AF-701E928BDD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5D2A66-8F0D-47EC-84AF-701E928BDD20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
