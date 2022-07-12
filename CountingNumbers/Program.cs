@@ -1,14 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Enter a integer number:");
+Console.WriteLine("Enter a number:");
 var input = Console.ReadLine()!;
-try
+var len = input
+  .Where(char.IsDigit)
+  .Count();
+if (len > 0)
 {
-  var len = Math.Round(Math.Log10(Math.Abs(int.Parse(input))))+1;
   Console.ForegroundColor = ConsoleColor.Green;
   Console.WriteLine($"{input} contains {len} numbers.");
 }
-catch
+else
 {
   Console.ForegroundColor = ConsoleColor.Red;
-  Console.WriteLine($"{input} is not integer number.");
+  Console.WriteLine($"{input} don't contains an numbers.");
 }
