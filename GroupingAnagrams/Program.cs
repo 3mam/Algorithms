@@ -4,10 +4,7 @@
 
 Console.WriteLine("Put list of anagrams for sorting:");
 var input = Console.ReadLine()!.Split(" ");
-var sortList = input.GroupBy(
-  key => key,
-  new Comparer()
-).ToList();
+var sortList = input.GroupBy(SortChars).ToList();
 
 Console.WriteLine("Sorted list of anagrams:");
 sortList.ForEach(list =>
@@ -17,19 +14,9 @@ sortList.ForEach(list =>
   }
 );
 
-#nullable disable
-public class Comparer : IEqualityComparer<string>
+string SortChars(string word)
 {
-  public bool Equals(string x, string y)
-    => SortChars(x) == SortChars(y);
-
-  public int GetHashCode(string obj)
-    => SortChars(obj).GetHashCode();
-
-  private string SortChars(string word)
-  {
-    var chars = word.ToLower().ToCharArray();
-    Array.Sort(chars);
-    return new string(chars);
-  }
+  var chars = word.ToLower().ToCharArray();
+  Array.Sort(chars);
+  return new string(chars);
 }
